@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9d716ac191963bbb8dd3335a9d7b3dda",
+    "revision": "484dd0e0a036ca676318113f4cebc168",
     "url": "/2020/index.html"
   },
   {
-    "revision": "00625a712b594ca7ebfe",
-    "url": "/2020/static/css/main.27626093.chunk.css"
+    "revision": "c72effb9dc046be497b1",
+    "url": "/2020/static/css/main.64b00923.chunk.css"
   },
   {
-    "revision": "d3bf47329e59077433a4",
-    "url": "/2020/static/js/2.3424c8b1.chunk.js"
+    "revision": "b397cd172b563fe58e69",
+    "url": "/2020/static/js/2.f610a69e.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/2020/static/js/2.3424c8b1.chunk.js.LICENSE.txt"
+    "url": "/2020/static/js/2.f610a69e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "00625a712b594ca7ebfe",
-    "url": "/2020/static/js/main.6b276ba7.chunk.js"
+    "revision": "c72effb9dc046be497b1",
+    "url": "/2020/static/js/main.04818a10.chunk.js"
   },
   {
     "revision": "1993597f2ff9f23ff976",
@@ -28,6 +28,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/2020/static/media/MontserratAlternates-Regular.b8d1a091.ttf"
   },
   {
+    "revision": "58aef543c97bbaf6a9896e8484456d98",
+    "url": "/2020/static/media/Roboto-Medium.58aef543.ttf"
+  },
+  {
     "revision": "e66848b9d045dc723cd0bd9bcfc279be",
     "url": "/2020/static/media/background-img.e66848b9.png"
   },
@@ -36,7 +40,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/2020/static/media/intro-image.d688eca3.png"
   },
   {
-    "revision": "5d5d9eefa31e5e13a6610d9fa7a283bb",
-    "url": "/2020/static/media/logo.5d5d9eef.svg"
+    "revision": "21c23da3eaf96ac873f2ac26506fe9b9",
+    "url": "/2020/static/media/logo.21c23da3.png"
   }
 ]);
