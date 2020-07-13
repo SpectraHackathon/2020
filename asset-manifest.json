@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/2020/static/css/main.ca741bd1.chunk.css",
-    "main.js": "/2020/static/js/main.a92219ac.chunk.js",
-    "main.js.map": "/2020/static/js/main.a92219ac.chunk.js.map",
+    "main.js": "/2020/static/js/main.8ef461be.chunk.js",
+    "main.js.map": "/2020/static/js/main.8ef461be.chunk.js.map",
     "runtime-main.js": "/2020/static/js/runtime-main.4e82c10b.js",
     "runtime-main.js.map": "/2020/static/js/runtime-main.4e82c10b.js.map",
-    "static/js/2.7a069e56.chunk.js": "/2020/static/js/2.7a069e56.chunk.js",
-    "static/js/2.7a069e56.chunk.js.map": "/2020/static/js/2.7a069e56.chunk.js.map",
+    "static/js/2.87644142.chunk.js": "/2020/static/js/2.87644142.chunk.js",
+    "static/js/2.87644142.chunk.js.map": "/2020/static/js/2.87644142.chunk.js.map",
     "index.html": "/2020/index.html",
-    "precache-manifest.9cd2f1063b71098324c9f90bff2078cb.js": "/2020/precache-manifest.9cd2f1063b71098324c9f90bff2078cb.js",
+    "precache-manifest.daef8845e1de0ef9555b8a529c32416e.js": "/2020/precache-manifest.daef8845e1de0ef9555b8a529c32416e.js",
     "service-worker.js": "/2020/service-worker.js",
     "static/css/main.ca741bd1.chunk.css.map": "/2020/static/css/main.ca741bd1.chunk.css.map",
-    "static/js/2.7a069e56.chunk.js.LICENSE.txt": "/2020/static/js/2.7a069e56.chunk.js.LICENSE.txt",
+    "static/js/2.87644142.chunk.js.LICENSE.txt": "/2020/static/js/2.87644142.chunk.js.LICENSE.txt",
     "static/media/Angela.png": "/2020/static/media/Angela.0baad679.png",
     "static/media/Danielle.png": "/2020/static/media/Danielle.642415ce.png",
     "static/media/Ivy.png": "/2020/static/media/Ivy.0e582fd5.png",
@@ -23,6 +23,7 @@
     "static/media/Prathyusha.png": "/2020/static/media/Prathyusha.2e24711a.png",
     "static/media/Samar.png": "/2020/static/media/Samar.97cd739f.png",
     "static/media/Sanjim.png": "/2020/static/media/Sanjim.38ed2b51.png",
+    "static/media/Savanna.png": "/2020/static/media/Savanna.0f7af4d9.png",
     "static/media/Yamini.png": "/2020/static/media/Yamini.0e7fcc18.png",
     "static/media/echoAR.png": "/2020/static/media/echoAR.c80860a0.png",
     "static/media/hyperX.png": "/2020/static/media/hyperX.0693bdd5.png",
@@ -31,8 +32,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.4e82c10b.js",
-    "static/js/2.7a069e56.chunk.js",
+    "static/js/2.87644142.chunk.js",
     "static/css/main.ca741bd1.chunk.css",
-    "static/js/main.a92219ac.chunk.js"
+    "static/js/main.8ef461be.chunk.js"
   ]
 }
