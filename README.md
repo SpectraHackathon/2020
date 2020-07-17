@@ -10,4 +10,4 @@ Sign up for our [newsletter](http://eepurl.com/djGsIH)
 
 
 
-[twitter](twitter.com/sospectra) | [instagram](instagram.com/sospectra) | [linkedin](linkedin.com/in/sospectra) | [facebook](facebook.com/sospectra)
+[twitter](https://twitter.com/sospectra) | [instagram](https://instagram.com/sospectra) | [linkedin](https://linkedin.com/in/sospectra) | [facebook](https://facebook.com/sospectra)
