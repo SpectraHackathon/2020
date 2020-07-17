@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/www.sospectra.com/static/css/main.ab30f01f.chunk.css",
-    "main.js": "/www.sospectra.com/static/js/main.2a787aab.chunk.js",
-    "main.js.map": "/www.sospectra.com/static/js/main.2a787aab.chunk.js.map",
+    "main.js": "/www.sospectra.com/static/js/main.7d24273b.chunk.js",
+    "main.js.map": "/www.sospectra.com/static/js/main.7d24273b.chunk.js.map",
     "runtime-main.js": "/www.sospectra.com/static/js/runtime-main.f8ef802e.js",
     "runtime-main.js.map": "/www.sospectra.com/static/js/runtime-main.f8ef802e.js.map",
     "static/js/2.1b4f6a9f.chunk.js": "/www.sospectra.com/static/js/2.1b4f6a9f.chunk.js",
     "static/js/2.1b4f6a9f.chunk.js.map": "/www.sospectra.com/static/js/2.1b4f6a9f.chunk.js.map",
     "index.html": "/www.sospectra.com/index.html",
-    "precache-manifest.736e38a2cc60ced711c8a372936bea15.js": "/www.sospectra.com/precache-manifest.736e38a2cc60ced711c8a372936bea15.js",
+    "precache-manifest.c22b836ef51e2eb215bfe7db9131e3f0.js": "/www.sospectra.com/precache-manifest.c22b836ef51e2eb215bfe7db9131e3f0.js",
     "service-worker.js": "/www.sospectra.com/service-worker.js",
     "static/css/main.ab30f01f.chunk.css.map": "/www.sospectra.com/static/css/main.ab30f01f.chunk.css.map",
     "static/js/2.1b4f6a9f.chunk.js.LICENSE.txt": "/www.sospectra.com/static/js/2.1b4f6a9f.chunk.js.LICENSE.txt",
@@ -45,6 +45,6 @@
     "static/js/runtime-main.f8ef802e.js",
     "static/js/2.1b4f6a9f.chunk.js",
     "static/css/main.ab30f01f.chunk.css",
-    "static/js/main.2a787aab.chunk.js"
+    "static/js/main.7d24273b.chunk.js"
   ]
 }

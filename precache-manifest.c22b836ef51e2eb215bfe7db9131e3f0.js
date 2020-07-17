@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fea54c2217aaa70c0d2e51117342a970",
+    "revision": "65dd0d814797ac5f78fe1e38f60435e8",
     "url": "/www.sospectra.com/index.html"
   },
   {
-    "revision": "b5da5fc7354c6550da65",
+    "revision": "924f65a7cd7eb2bee60c",
     "url": "/www.sospectra.com/static/css/main.ab30f01f.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/www.sospectra.com/static/js/2.1b4f6a9f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b5da5fc7354c6550da65",
-    "url": "/www.sospectra.com/static/js/main.2a787aab.chunk.js"
+    "revision": "924f65a7cd7eb2bee60c",
+    "url": "/www.sospectra.com/static/js/main.7d24273b.chunk.js"
   },
   {
     "revision": "d7ae748bd7069a369295",

@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/www.sospectra.com/precache-manifest.736e38a2cc60ced711c8a372936bea15.js"
+  "/www.sospectra.com/precache-manifest.c22b836ef51e2eb215bfe7db9131e3f0.js"
 );
 
 self.addEventListener('message', (event) => {
