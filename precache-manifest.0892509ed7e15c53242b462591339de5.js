@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c06a46692c4619c89aa8406a8e6b7c39",
+    "revision": "d2b01a57e55a4f6a393015d2f6508927",
     "url": "/2020/index.html"
   },
   {
-    "revision": "4925b81e15077a79ead3",
-    "url": "/2020/static/css/main.1d104e12.chunk.css"
+    "revision": "8d359ca2daeafa6d8343",
+    "url": "/2020/static/css/main.78bd4b05.chunk.css"
   },
   {
-    "revision": "c7fc049eb8d9e5ed486c",
-    "url": "/2020/static/js/2.0f981480.chunk.js"
+    "revision": "94ae92ddbafecddaa257",
+    "url": "/2020/static/js/2.eef16e07.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/2020/static/js/2.0f981480.chunk.js.LICENSE.txt"
+    "url": "/2020/static/js/2.eef16e07.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4925b81e15077a79ead3",
-    "url": "/2020/static/js/main.3bb377de.chunk.js"
+    "revision": "8d359ca2daeafa6d8343",
+    "url": "/2020/static/js/main.2b1b8cb1.chunk.js"
   },
   {
     "revision": "1993597f2ff9f23ff976",
@@ -84,8 +84,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/2020/static/media/Yamini.0e7fcc18.png"
   },
   {
+    "revision": "c7f867eb44b9c0da67edb3411332ba25",
+    "url": "/2020/static/media/benefit.c7f867eb.jpeg"
+  },
+  {
     "revision": "d366c4003a2921ea85ebe4f56ea3407d",
     "url": "/2020/static/media/bottomSquiggle.d366c400.png"
+  },
+  {
+    "revision": "69af6806728070d0d643168870374171",
+    "url": "/2020/static/media/bugsee.69af6806.png"
+  },
+  {
+    "revision": "18d914e42799084f91b720465b239433",
+    "url": "/2020/static/media/clerky.18d914e4.svg"
   },
   {
     "revision": "c80860a051ef6081fd365261d3f249cf",
@@ -96,12 +108,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/2020/static/media/hyperX.0693bdd5.png"
   },
   {
+    "revision": "5f8c569671bfe3e6e05b12c0bceb9014",
+    "url": "/2020/static/media/imagilabs.5f8c5696.png"
+  },
+  {
     "revision": "d688eca33567a4e01e71e531f4c9871b",
     "url": "/2020/static/media/intro-image.d688eca3.png"
   },
   {
     "revision": "21c23da3eaf96ac873f2ac26506fe9b9",
     "url": "/2020/static/media/logo.21c23da3.png"
+  },
+  {
+    "revision": "fb71faa9aa7f71b9af6e5622c6b9c5d8",
+    "url": "/2020/static/media/rstudio.fb71faa9.png"
   },
   {
     "revision": "5518b062a216c9dc8ce1a80c2e974c85",
