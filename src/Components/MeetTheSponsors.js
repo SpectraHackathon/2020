@@ -9,7 +9,7 @@ export default function MeetTheSponsors({ title, subtitle, dark, id }) {
 
           <h1>{title}</h1>
 
-          <img src={braintree}/>
+          <img className="braintree" src={braintree}/>
 
           <div className="row">
             {subtitle}

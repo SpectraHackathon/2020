@@ -71,6 +71,10 @@ img.large{
   height: auto;
 }
 
+.braintree {
+  max-width: 100%;
+}
+
 /*when screen is small size*/
 .nav {
   font-family: 'MontserratAlternates', Arial, sans-serif;
@@ -177,6 +181,59 @@ a-href{
     color: black;
     cursor: pointer;
   }
+
+}
+@media only screen and (max-width:500px) {
+  .nav {
+    font-family: 'MontserratAlternates', Arial, sans-serif;
+    font-size: 10px;
+    background-color: var(--off-white);
+    opacity: 0.5;
+    visibility: hidden;
+  }
+
+  .nav-logo {
+    height: 0px;
+    width: 0px;
+  }
+
+  .nav-logo:hover {
+    cursor: pointer;
+  }
+
+  .nav .nav-content {
+    max-width: 950px;
+    padding: 0 0 0 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    margin-top: 0px;
+  }
+
+  .nav-item {
+    list-style: none;
+    margin-right: 0rem;
+    padding: 8px 8px 8px 8px;
+    color: #F16F6F;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  ul {
+    padding-inline-start: 0px;
+  }
+
+  a-href{
+    top: 0;
+    bottom: 0;
+  }
+  .nav-item:hover {
+    color: black;
+    cursor: pointer;
+  }
+
 
 }
 
@@ -299,6 +356,10 @@ a-href{
   .background-img {
     max-width: 100%;
     width: 1440;
+  }
+
+  .braintree {
+    max-width: 100%;
   }
 
 }
