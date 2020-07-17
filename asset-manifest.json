@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/2020/static/css/main.78bd4b05.chunk.css",
-    "main.js": "/2020/static/js/main.9db453a2.chunk.js",
-    "main.js.map": "/2020/static/js/main.9db453a2.chunk.js.map",
+    "main.css": "/2020/static/css/main.a56a1349.chunk.css",
+    "main.js": "/2020/static/js/main.f92a1741.chunk.js",
+    "main.js.map": "/2020/static/js/main.f92a1741.chunk.js.map",
     "runtime-main.js": "/2020/static/js/runtime-main.4e82c10b.js",
     "runtime-main.js.map": "/2020/static/js/runtime-main.4e82c10b.js.map",
-    "static/js/2.4d84dbb2.chunk.js": "/2020/static/js/2.4d84dbb2.chunk.js",
-    "static/js/2.4d84dbb2.chunk.js.map": "/2020/static/js/2.4d84dbb2.chunk.js.map",
+    "static/js/2.1b4f6a9f.chunk.js": "/2020/static/js/2.1b4f6a9f.chunk.js",
+    "static/js/2.1b4f6a9f.chunk.js.map": "/2020/static/js/2.1b4f6a9f.chunk.js.map",
     "index.html": "/2020/index.html",
-    "precache-manifest.a9c583973fd7b916ba5ee63f83e25f93.js": "/2020/precache-manifest.a9c583973fd7b916ba5ee63f83e25f93.js",
+    "precache-manifest.bafc0901848d6e4252fca2b0e004299b.js": "/2020/precache-manifest.bafc0901848d6e4252fca2b0e004299b.js",
     "service-worker.js": "/2020/service-worker.js",
-    "static/css/main.78bd4b05.chunk.css.map": "/2020/static/css/main.78bd4b05.chunk.css.map",
-    "static/js/2.4d84dbb2.chunk.js.LICENSE.txt": "/2020/static/js/2.4d84dbb2.chunk.js.LICENSE.txt",
+    "static/css/main.a56a1349.chunk.css.map": "/2020/static/css/main.a56a1349.chunk.css.map",
+    "static/js/2.1b4f6a9f.chunk.js.LICENSE.txt": "/2020/static/js/2.1b4f6a9f.chunk.js.LICENSE.txt",
     "static/media/Angela.png": "/2020/static/media/Angela.0baad679.png",
     "static/media/Danielle.png": "/2020/static/media/Danielle.642415ce.png",
     "static/media/Ivy.png": "/2020/static/media/Ivy.0e582fd5.png",
@@ -30,9 +30,12 @@
     "static/media/bottomSquiggle.png": "/2020/static/media/bottomSquiggle.d366c400.png",
     "static/media/bugsee.png": "/2020/static/media/bugsee.69af6806.png",
     "static/media/clerky.svg": "/2020/static/media/clerky.18d914e4.svg",
+    "static/media/collaboration.png": "/2020/static/media/collaboration.2246dd98.png",
+    "static/media/diversity.png": "/2020/static/media/diversity.ca364b18.png",
     "static/media/echoAR.png": "/2020/static/media/echoAR.c80860a0.png",
     "static/media/hyperX.png": "/2020/static/media/hyperX.0693bdd5.png",
     "static/media/imagilabs.png": "/2020/static/media/imagilabs.5f8c5696.png",
+    "static/media/inclusivity.png": "/2020/static/media/inclusivity.227068b4.png",
     "static/media/intro-image.png": "/2020/static/media/intro-image.d688eca3.png",
     "static/media/logo.png": "/2020/static/media/logo.21c23da3.png",
     "static/media/rstudio.png": "/2020/static/media/rstudio.fb71faa9.png",
@@ -40,8 +43,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.4e82c10b.js",
-    "static/js/2.4d84dbb2.chunk.js",
-    "static/css/main.78bd4b05.chunk.css",
-    "static/js/main.9db453a2.chunk.js"
+    "static/js/2.1b4f6a9f.chunk.js",
+    "static/css/main.a56a1349.chunk.css",
+    "static/js/main.f92a1741.chunk.js"
   ]
 }
