@@ -8,6 +8,7 @@ import fund from "./sponsorLogos/1517Fund.png";
 import benefit from "./sponsorLogos/benefit.jpeg";
 import clerky from "./sponsorLogos/clerky.svg";
 import imagi from "./sponsorLogos/imagilabs.png";
+import taskade from "./sponsorLogos/taskade.png";
 
 
 const sponsorsData = [
@@ -63,6 +64,12 @@ const sponsorsData = [
         id: 10,
         img: imagi,
         name: "ImagiLabs",
+        size: "xsmall",
+    },
+    {
+        id: 11,
+        img: taskade,
+        name: "Taskade",
         size: "xsmall",
     }
 ]

@@ -27,7 +27,7 @@ export default class Main extends Component {
 
     return (
 
-        <div className="background-img">
+        <div className="background">
 
         <div className="topSquiggle">
           <img src={topSquiggle}/>

@@ -237,21 +237,14 @@ a-href{
 
 }
 
-.background-img {
-  background-image: url("background-img.png");
+.background {
+  background: #F16F6F;
   font-family: 'MontserratAlternates', Arial, sans-serif;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: 100% 100%;
-
-  max-width: 115%;
-  width: 1440px;
+  width: 100%;
 
   color: white;
   overflow: hidden;
-
   margin: 0 auto;
-
   text-align: center;
 }
 
@@ -259,6 +252,7 @@ a-href{
   display: flex;
   margin: auto;
   margin-left: 40%;
+  margin-top: 1%;
   max-width: 100%;
   height: auto;
   float: right;
@@ -271,6 +265,10 @@ a-href{
   height: auto;
   float: left;
   margin-top: 35px;
+}
+
+.bottomSquiggle img, .topSquiggle img {
+  border-radius: 50px;
 }
 
 .main-section {
@@ -318,6 +316,16 @@ a-href{
   background-color: #f2e2a4;
 
 }
+
+.main-title {
+  color: white;
+  font-size: 64px;
+  padding-bottom: 0px;
+
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
 .main-date {
   display: flex;
   flex-direction: row;
@@ -333,16 +341,14 @@ a-href{
   margin-right: 10px;
 }
 
-.main-title {
-  color: white;
-  font-size: 64px;
-  padding-bottom: 0px;
-}
 
 @media only screen and (min-width:630px) {
 
   .main-title {
     font-size: 96px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
   }
 
   .main-date-text {
@@ -460,8 +466,7 @@ a-href{
 }
 
 .box {
-  padding-top: 10px;
-  height: 40px;
+  padding: 10px;
   background: #F16F6F;
   border-radius: 50px;
 }

@@ -18,11 +18,11 @@ export default function WhatsTheSchedule({ title, dayOne, dayTwo, id }) {
           <div className="faq-entry">
             <div className="faq-row">
               <div className="col-lg">
-                <h2 className="box" style={otherStyle}>Day 1 - 8/8/2020</h2>
+                <h2 className="box" style={otherStyle}>Day 1 - 8/8/20</h2>
                 {dayOne}
               </div>
               <div className="col-lg">
-                <h2 className="box" style={otherStyle}>Day 2 - 8/9/2020</h2>
+                <h2 className="box" style={otherStyle}>Day 2 - 8/9/20</h2>
                 {dayTwo}
               </div>
             </div>
