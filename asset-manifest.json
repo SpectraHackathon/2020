@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.7a1f2459.chunk.css",
-    "main.js": "/static/js/main.92d05d3e.chunk.js",
-    "main.js.map": "/static/js/main.92d05d3e.chunk.js.map",
+    "main.css": "/static/css/main.0d3ddd0f.chunk.css",
+    "main.js": "/static/js/main.7c0521d4.chunk.js",
+    "main.js.map": "/static/js/main.7c0521d4.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.c8c4c9f3.js",
     "runtime-main.js.map": "/static/js/runtime-main.c8c4c9f3.js.map",
-    "static/js/2.231e0230.chunk.js": "/static/js/2.231e0230.chunk.js",
-    "static/js/2.231e0230.chunk.js.map": "/static/js/2.231e0230.chunk.js.map",
+    "static/js/2.c415f4f1.chunk.js": "/static/js/2.c415f4f1.chunk.js",
+    "static/js/2.c415f4f1.chunk.js.map": "/static/js/2.c415f4f1.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.633ddd0d5b7f8677e440c605958afeba.js": "/precache-manifest.633ddd0d5b7f8677e440c605958afeba.js",
+    "precache-manifest.33d8661b449aeec4cb78be06d6036842.js": "/precache-manifest.33d8661b449aeec4cb78be06d6036842.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.7a1f2459.chunk.css.map": "/static/css/main.7a1f2459.chunk.css.map",
-    "static/js/2.231e0230.chunk.js.LICENSE.txt": "/static/js/2.231e0230.chunk.js.LICENSE.txt",
+    "static/css/main.0d3ddd0f.chunk.css.map": "/static/css/main.0d3ddd0f.chunk.css.map",
+    "static/js/2.c415f4f1.chunk.js.LICENSE.txt": "/static/js/2.c415f4f1.chunk.js.LICENSE.txt",
     "static/media/Angela.png": "/static/media/Angela.0baad679.png",
     "static/media/Danielle.png": "/static/media/Danielle.642415ce.png",
     "static/media/Ivy.png": "/static/media/Ivy.0e582fd5.png",
@@ -31,7 +31,7 @@
     "static/media/bugsee.png": "/static/media/bugsee.69af6806.png",
     "static/media/clerky.svg": "/static/media/clerky.18d914e4.svg",
     "static/media/collaboration.png": "/static/media/collaboration.2246dd98.png",
-    "static/media/diversity.png": "/static/media/diversity.ca364b18.png",
+    "static/media/diversity.png": "/static/media/diversity.ac2ae008.png",
     "static/media/echoAR.png": "/static/media/echoAR.c80860a0.png",
     "static/media/hyperX.png": "/static/media/hyperX.0693bdd5.png",
     "static/media/imagilabs.png": "/static/media/imagilabs.5f8c5696.png",
@@ -43,8 +43,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.c8c4c9f3.js",
-    "static/js/2.231e0230.chunk.js",
-    "static/css/main.7a1f2459.chunk.css",
-    "static/js/main.92d05d3e.chunk.js"
+    "static/js/2.c415f4f1.chunk.js",
+    "static/css/main.0d3ddd0f.chunk.css",
+    "static/js/main.7c0521d4.chunk.js"
   ]
 }
