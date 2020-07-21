@@ -9,6 +9,7 @@ import fb from "./icons/fbPink.png";
 import insta from "./icons/instaPink.png";
 import twitter from "./icons/twitterPink.png";
 import linkedIn from "./icons/linkedPink.png";
+import medium from "./icons/medium.png";
 
 export default class Navbar extends Component {
   scrollToTop = () => {
@@ -171,6 +172,11 @@ export default class Navbar extends Component {
             <li className="nav-item">
               <a onClick={this.initializeReactGALinkedin} href="https://www.linkedin.com/company/sospectra/" target="_blank" rel="noopener noreferrer">
                 <img src={linkedIn} className="logo"/>
+              </a>
+            </li>
+            <li className="nav-item">
+              <a href="https://medium.com/spectra-hackathon" target="_blank" rel="noopener noreferrer">
+                <img src={medium} className="logo"/>
               </a>
             </li>
 

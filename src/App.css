@@ -394,10 +394,9 @@ a-href{
 .intro-image {
   max-width: 501px;
   max-height: 489px;
-  min-width: 280px;
+  min-width: 240px;
   width: 100%;
   height: auto;
-  display: block;
   padding-right: 40px;
 }
 
@@ -405,6 +404,7 @@ a-href{
   font-family: 'RobotoMedium', Arial, sans-serif;
   color: #114A75;
   line-height: 30px;
+  min-width: 400px;
 }
 
 .intro-text-div {
@@ -476,9 +476,6 @@ a-href{
   padding: 25px;
 }
 
-.value-image{
-
-}
 
 .list-values {
   display: flex;
@@ -495,6 +492,7 @@ a-href{
   line-height: 30px;
   text-align: left;
   padding-left: 10px;
+  text-align: center;
 }
 
 .schedule-title {
