@@ -536,7 +536,7 @@ a-href{
 .line {
   width: 90%;
   margin: auto;
-  margin-top: 8%;
+  margin-top: 5%;
   margin-bottom: 5%;
   border-color: #F16F6F;
 }
@@ -557,7 +557,7 @@ a-href{
 .date {
   font-family: 'MontserratAlternates', Arial, sans-serif;
   border-radius: 50px;
-  margin-bottom: 10px;
+  margin-bottom: 50px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -570,4 +570,33 @@ a-href{
   justify-content: center;
   background-color: #F16F6F;
   color: #F3F0EB;
+}
+
+.circle-speaker {
+
+    height:180px;
+    border-radius:50%;
+    border-radius:50%;
+    border-radius:50%;
+    width:180px;
+
+    margin-right: 10px;
+    float: left;
+    padding: 0 20px 20px 0;
+}
+
+.time {
+  font-family: 'MontserratAlternates', Arial, sans-serif;
+  margin-bottom: 30px;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0px 25px 0px 25px;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  background-color: #f2e2a4;
+  color: #F16F6F;
 }
