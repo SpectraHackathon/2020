@@ -1,4 +1,3 @@
-import braintree from "./sponsorLogos/braintree.png";
 import balsamiq from "./sponsorLogos/balsamiq.png";
 import hyperX from "./sponsorLogos/hyperX.png";
 import rstudio from "./sponsorLogos/rstudio.png";
@@ -9,9 +8,17 @@ import benefit from "./sponsorLogos/benefit.jpeg";
 import clerky from "./sponsorLogos/clerky.svg";
 import imagi from "./sponsorLogos/imagilabs.png";
 import taskade from "./sponsorLogos/taskade.png";
+import typeform from "./sponsorLogos/typeform.png";
+import google from "./sponsorLogos/google.png";
 
 
 const sponsorsData = [
+    {
+        id: 1,
+        img: typeform,
+        name: "Typeform",
+        size: "medium",
+    },
     {
         id: 2,
         img: balsamiq,
@@ -70,6 +77,12 @@ const sponsorsData = [
         id: 11,
         img: taskade,
         name: "Taskade",
+        size: "xsmall",
+    },
+    {
+        id: 12,
+        img: google,
+        name: "Google",
         size: "xsmall",
     }
 ]

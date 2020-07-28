@@ -1,5 +1,6 @@
 :root {
   --off-white: #fafafa;
+  background: #F3F0EB;
 }
 
 @font-face {
@@ -14,7 +15,6 @@
 
 h1 {
   font-size: 36px;
-  color: #114A75;
 }
 
 #section4 h1 {
@@ -23,6 +23,10 @@ h1 {
 
 h2 {
   font-size: 24px;
+}
+
+h3 {
+  font-size: 18px;
 }
 
 p {
@@ -79,7 +83,7 @@ img.large{
 .nav {
   font-family: 'MontserratAlternates', Arial, sans-serif;
   font-size: 14px;
-  background-color: var(--off-white);
+  background-color: #F3F0EB;
   opacity: 0.5;
   box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.15);
   border-radius: 60px;
@@ -238,37 +242,22 @@ a-href{
 }
 
 .background {
-  background: #F16F6F;
+  background-image: url("background-img.svg");
   font-family: 'MontserratAlternates', Arial, sans-serif;
-  width: 100%;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+
+  padding-top: 120px;
+  padding-bottom: 100px;
+
 
   color: white;
   overflow: hidden;
   margin: 0 auto;
   text-align: center;
-}
-
-.topSquiggle {
-  display: flex;
-  margin: auto;
-  margin-left: 40%;
-  margin-top: 1%;
-  max-width: 100%;
-  height: auto;
-  float: right;
-}
-
-.bottomSquiggle {
-  display: flex;
-  margin: auto;
-  max-width: 100%;
-  height: auto;
-  float: left;
-  margin-top: 35px;
-}
-
-.bottomSquiggle img, .topSquiggle img {
-  border-radius: 50px;
 }
 
 .main-section {
@@ -305,22 +294,25 @@ a-href{
 
 
 .main-button-hacker {
-  background-color: #6297C1
+  background-color: #6297C1;
+  color: #F3F0EB;
 }
 
 .main-button-mentor {
-  background-color: #F7A3A3
+  background-color: #F7A3A3;
+  color: #F3F0EB;
 }
 
 .main-button-newsletter {
   background-color: #f2e2a4;
-
+  color: #F3F0EB;
 }
 
 .main-title {
-  color: white;
+  color: #F3F0EB;
   font-size: 64px;
   padding-bottom: 0px;
+
 
   flex-direction: row;
   justify-content: center;
@@ -336,6 +328,7 @@ a-href{
 }
 
 .main-date-text {
+  color: #F3F0EB;
   font-size: 32px;
   margin-left: 10px;
   margin-right: 10px;
@@ -499,4 +492,82 @@ a-href{
   font-family: 'RobotoMedium', Arial, sans-serif;
   letter-spacing: 1px;
   margin-top: 5px;
+}
+
+
+
+.DetailedSchedule {
+  font-family: 'RobotoMedium', Arial, sans-serif;
+  text-align: left;
+  padding: 10px;
+  color: #114A75;
+  letter-spacing: 1px;
+}
+
+.header {
+  font-family: 'MontserratAlternates', Arial, sans-serif;
+
+  background-image: url("back-img.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 100%;
+
+  padding-top: 30px;
+  padding-bottom: 60px;
+
+
+  color: white;
+}
+
+.header p {
+  text-align: left;
+  padding-left: 40px;
+}
+
+.header h1 {
+  text-align: center;
+  font-size: 46px;
+  font-weight: bold;
+  padding-left: 30px;
+}
+
+.line {
+  width: 90%;
+  margin: auto;
+  margin-top: 8%;
+  margin-bottom: 5%;
+  border-color: #F16F6F;
+}
+
+.text-link, .text-link2 {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.text-link:hover {
+  color: #114A75;
+}
+
+.text-link2:hover {
+  color: #F16F6F;
+}
+
+.date {
+  font-family: 'MontserratAlternates', Arial, sans-serif;
+  border-radius: 50px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  justify-content: center;
+  background-color: #F16F6F;
+  color: #F3F0EB;
 }

@@ -1,98 +1,32 @@
 import React, { Component } from "react";
-import "./App.css";
-import "./App2.css";
-import Navbar from "./Components/Navbar";
-import Main from "./Components/Main";
-import Intro from "./Components/Intro";
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
-import WhatsTheSchedule from "./Components/WhatsTheSchedule";
-import Schedule from "./Components/Schedule";
-import dayOneData from "./Components/dayOneData";
-import dayTwoData from "./Components/dayTwoData";
+import './App.css';
+import FullSchedule from "./FullSchedule";
+import Home from "./Home";
+import ScrollToTop from "./ScrollToTop";
 
-import MeetTheTeam from "./Components/MeetTheTeam";
-import Team from "./Components/Team";
-import teamData from "./Components/teamData";
-
-import MeetTheSponsors from "./Components/MeetTheSponsors";
-import Sponsors from "./Components/Sponsors";
-import sponsorsData from "./Components/sponsorsData";
-
-import Contact from "./Components/Contacts";
-import FAQs from "./Components/FAQs";
-import FAQData from "./Components/FAQData";
-import FAQData2 from "./Components/FAQData2";
-import FAQEntry from "./Components/FAQEntry";
-
-import ReactGA from 'react-ga';
-
-function initializeReactGA() {
-    ReactGA.initialize('UA-77365611-1');
-    ReactGA.pageview(window.location.pathname);
-}
 
 class App extends Component {
 
-  constructor() {
-        super()
-        initializeReactGA()
-        this.state = {
-            teams:teamData,
-            sponsors: sponsorsData,
-            dayOne: dayOneData,
-            dayTwo: dayTwoData,
-            firstColQuestions: FAQData,
-            secondColQuestions: FAQData2
-        }
-
-    }
-
-  render() {
-
-     const team = this.state.teams.map(item => <Team key={item.id} item={item}/>)
-     const sponsors = this.state.sponsors.map(item => <Sponsors key={item.id} item={item}/>)
-     const dayOne = this.state.dayOne.map(item => <Schedule key={item.id} item={item}/>)
-     const dayTwo = this.state.dayTwo.map(item => <Schedule key={item.id} item={item}/>)
-     const firstColQuestions = this.state.firstColQuestions.map(item => <FAQEntry key={item.id} questionText={item.questionText} answer={item.answer}/>)
-     const secondColQuestions = this.state.secondColQuestions.map(item => <FAQEntry key={item.id} questionText={item.questionText} answer={item.answer}/>)
-
+  render(){
 
     return (
+
+      <Router>
       <div className="App">
 
-        <Navbar />
-        <Main />
+        <ScrollToTop />
 
-        <Intro
-          id="section1"
-        />
-        <WhatsTheSchedule
-         title="Schedule"
-         dayOne={dayOne}
-         dayTwo={dayTwo}
-         id="section2"
-       />
-        <MeetTheTeam
-          title="Meet the team"
-          subtitle={team}
-          id="section3"
-        />
-        <MeetTheSponsors
-          title="Sponsors"
-          subtitle={sponsors}
-          id="section4"
-        />
-        <FAQs
-          title="FAQs"
-          firstColQuestions={firstColQuestions}
-          secondColQuestions={secondColQuestions}
-          id="section5"
-        />
-        <Contact
-          title="Contact"
-          id="section6"
-        />
+        <Switch>
+          <Route path="/" exact component={Home} />
+          <Route path="/FullSchedule" component={FullSchedule}/>
+          </Switch>
+
+          <ScrollToTop />
+
       </div>
+      </Router>
     );
   }
 }

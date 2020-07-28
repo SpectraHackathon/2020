@@ -1,8 +1,6 @@
 import React, { Component } from "react";
 import "../App.css";
 import line from "./Images/line.png"
-import topSquiggle from "../topSquiggle.png"
-import bottomSquiggle from "../bottomSquiggle.png"
 
 import ReactGA from 'react-ga';
 
@@ -28,10 +26,6 @@ export default class Main extends Component {
     return (
 
         <div className="background">
-
-        <div className="topSquiggle">
-          <img src={topSquiggle}/>
-          </div>
 
           <div className="main-section">
 
@@ -60,9 +54,7 @@ export default class Main extends Component {
 
           </div>
 
-          <div className="bottomSquiggle">
-            <img src={bottomSquiggle}/>
-            </div>
+
 
           </div>
 

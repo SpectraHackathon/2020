@@ -26,9 +26,9 @@ const dayTwoData = [
         name: "Closing Ceremony + Winners Announced"
     },
     {
-      id: 11,
-      time: "5:30pm PST",
-      name: "End of Event"
+        id: 11,
+        time: "5:30pm PST",
+        name: "End of Event"
     }
 ]
 

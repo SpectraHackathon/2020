@@ -15,8 +15,6 @@ import insta from "./icons/instaGray.png";
 import twitter from "./icons/twitterGray.png";
 import linkedIn from "./icons/linkedGray.png";
 
-import logo from "./Images/logo.png";
-
 
 const teamData = [
     {
