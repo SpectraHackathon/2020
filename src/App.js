@@ -25,8 +25,8 @@ class App extends Component {
         <ScrollToTop />
 
         <Switch>
-          <Route path="/" exact component={Home} />
-          <Route path="/FullSchedule" component={FullSchedule}/>
+          <Route path={process.env.PUBLIC_URL + '/'} exact component={Home} />
+          <Route path={process.env.PUBLIC_URL + '/FullSchedule'} component={FullSchedule}/>
           <Route component={NoMatch}/>
           </Switch>
 
