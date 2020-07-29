@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 
 import fullScheduleData from "./fullScheduleData";
 import DetailedSchedule from "./DetailedSchedule";
+import ScrollTop from "./ScrollTop"
 
 class FullSchedule extends Component {
 
@@ -37,6 +38,8 @@ class FullSchedule extends Component {
         {schedData}
 
         </div>
+
+        <ScrollTop />
 
       </div>
 

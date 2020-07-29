@@ -42,7 +42,7 @@ export default function DetailedSchedule(props) {
 
   var dayTwo;
   if(props.item.id == 11){
-    dayTwo = <h1 className="date">Day Two: August 9, 2020 (PST Times)</h1>
+    dayTwo = <h1 className="date" style={{marginTop: "70px"}}>Day Two: August 9, 2020 (PST Times)</h1>
   }
 
   var panel;

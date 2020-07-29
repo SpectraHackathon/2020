@@ -360,6 +360,20 @@ a-href{
   .braintree {
     max-width: 100%;
   }
+  .intro-image {
+    max-width: 501px;
+    max-height: 489px;
+    min-width: 240px;
+    width: 100%;
+    height: auto;
+    padding-right: 40px;
+  }
+  .intro-text {
+    font-family: 'RobotoMedium', Arial, sans-serif;
+    color: #114A75;
+    line-height: 30px;
+    min-width: 400px;
+  }
 
 }
 
@@ -385,7 +399,7 @@ a-href{
 }
 
 .intro-image {
-  max-width: 501px;
+  max-width: 300px;
   max-height: 489px;
   min-width: 240px;
   width: 100%;
@@ -397,7 +411,7 @@ a-href{
   font-family: 'RobotoMedium', Arial, sans-serif;
   color: #114A75;
   line-height: 30px;
-  min-width: 400px;
+  min-width: 300px;
 }
 
 .intro-text-div {
@@ -495,11 +509,10 @@ a-href{
 }
 
 
-
 .DetailedSchedule {
   font-family: 'RobotoMedium', Arial, sans-serif;
   text-align: left;
-  padding: 10px;
+  padding: 20px;
   color: #114A75;
   letter-spacing: 1px;
 }
@@ -538,10 +551,10 @@ a-href{
   margin: auto;
   margin-top: 5%;
   margin-bottom: 5%;
-  border-color: #F16F6F;
+  border-color: #f2e2a4;
 }
 
-.text-link, .text-link2 {
+.text-link, .text-link2, .text-link3 {
     color: inherit;
     text-decoration: inherit;
 }
@@ -554,15 +567,41 @@ a-href{
   color: #F16F6F;
 }
 
+.text-link3:hover {
+  color: #f2e2a4;
+}
+
+.scroll-top {
+  position: fixed;
+  bottom: 1.5rem;
+  right: 0.5rem;
+  animation: fadeIn 700ms ease-in-out 1s both;
+  cursor: pointer;
+
+  padding: 0px 10px 0px 10px;
+  color: white;
+  border-radius: 50px;
+  background-color: #114A75;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 .date {
   font-family: 'MontserratAlternates', Arial, sans-serif;
   border-radius: 50px;
-  margin-bottom: 50px;
+  margin-bottom: 60px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 20px 10px 20px;
+  padding: 30px 20px 30px 20px;
   text-decoration: none;
   font-size: 20px;
   font-weight: bold;
