@@ -19,14 +19,15 @@ class App extends Component {
 
     return (
 
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
       <div className="App">
 
         <ScrollToTop />
 
         <Switch>
-          <Route path={process.env.PUBLIC_URL + '/'} exact component={Home} />
-          <Route path={process.env.PUBLIC_URL + '/FullSchedule'} component={FullSchedule}/>
+
+          <Route path="/" exact component={Home} />
+          <Route path="/FullSchedule" component={FullSchedule}/>
           <Route component={NoMatch}/>
           </Switch>
 
