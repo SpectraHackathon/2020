@@ -38,7 +38,7 @@ export default class Main extends Component {
             </div>
 
             <div className="col-bt">
-            <a className="main-aref main-button main-button-hacker" onClick={this.initializeReactGAHack} href="https://tinyurl.com/sospectra" target="_blank" rel="noopener noreferrer">
+            <a className="main-aref main-button main-button-hacker" onClick={this.initializeReactGAHack} href="https://spectrahackathon.typeform.com/to/y8s6Gh" target="_blank" rel="noopener noreferrer">
               register to hack</a>
               </div>
 
