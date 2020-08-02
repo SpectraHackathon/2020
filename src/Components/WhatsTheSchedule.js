@@ -15,9 +15,10 @@ export default function WhatsTheSchedule({ title, dayOne, dayTwo, id }) {
       <div className="section-content" id={id}>
 
           <h1>{title}</h1>
-          <Link to="/FullSchedule" className='text-link2'>
-                <p>(Click Here for Full Schedule)</p>
-                </Link>
+
+                <a href = "https://docs.google.com/document/d/1IeqWu8yV-xfWgYWt-ZJ6dhqk0Tmzo4zMejz2Yqi3UGc/edit?usp=sharing" className='text-link2' target="_blank" rel="noopener noreferrer">
+                (Click Here for Full Schedule)
+                </a>
 
           <div className="faq-entry">
             <div className="faq-row">

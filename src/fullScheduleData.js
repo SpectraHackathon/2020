@@ -10,7 +10,9 @@ import Brandi from "./Components/SpeakerImgs/Brandi.jpg";
 import Charu from "./Components/SpeakerImgs/Charu.jpeg";
 import Chloe from "./Components/SpeakerImgs/Chloe.png";
 import Dora from "./Components/SpeakerImgs/Dora.png";
+import Gefen from "./Components/SpeakerImgs/Gefen.png";
 import Grace from "./Components/SpeakerImgs/Grace.png";
+import Kevin from "./Components/SpeakerImgs/Kevin.png";
 import Kim from "./Components/SpeakerImgs/Kim.jpg";
 import Muazma from "./Components/SpeakerImgs/Muazma.png";
 import Nagela from "./Components/SpeakerImgs/Nagela.png";
@@ -76,6 +78,19 @@ const fullScheduleData = [
     },
     {
         id: 5,
+        time: "August 8: 12:00 PM - 1:00 PM PST",
+        title: "How React.js can Help You Succeed in Spectra",
+        location: "Sessions",
+        speaker: "Kevin Vuong - Incoming Product Engineering Intern at Intel",
+        img: Kevin,
+        bio: "Kevin is a rising senior studying computer science and statistics at UC Davis, and will be a product engineering intern at Intel this fall. He is really passionate about product management and finds great joy in bringing people's diverse talents together to produce products that provide maximum impact to people. His latest passion project is Dawn, a soon-to-be student-run nonprofit organization dedicated to empowering social advocacy with the power of modern technology. In his free time, he loves to watch Broadway musicals, travel and sing karaoke (all pre-COVID!).",
+        prereq: "Internet connection, ideally a React project set up via create-react-app",
+        description: "Whether you aim to win 'best mobile hack' or are just here to learn, this workshop will help you plan your hackathon and tailor your experience to your goals. Attendees will also be introduced to React.js, a powerful library that will help you develop dynamic user interfaces and impress your hackathon judges.",
+        socials1: linkedIn,
+        url1: "https://linkedin.com/in/gefenskolnick"
+    },
+    {
+        id: 6,
         time: "August 8: 12:15 - 1:00 PM PST",
         title: "Build a Cloud-Connected AR/VR App in 15 Minutes or Less",
         location: "Google Meets link",
@@ -88,7 +103,7 @@ const fullScheduleData = [
         url1: "https://www.linkedin.com/in/alongrinshpoon/"
     },
     {
-        id: 6,
+        id: 7,
         time: "August 8: 1:15 - 2:00 PM PST",
         title: "Designing Systems for Cognitive Enhancement",
         location: "Sessions",
@@ -101,7 +116,7 @@ const fullScheduleData = [
         url1: "https://www.linkedin.com/in/angela-vujic/"
     },
     {
-        id: 7,
+        id: 8,
         time: "August 8: 2:30 - 3:15 PM PST",
         title: "An Intro to Android App Development",
         location: "Sessions",
@@ -114,7 +129,7 @@ const fullScheduleData = [
         url1: "https://www.linkedin.com/in/rpandey1234/"
     },
     {
-        id: 8,
+        id: 9,
         time: "August 8: 3:30 - 4:15 PM PST",
         title: "Data Science 101: How to Build a Predictive Model Using R",
         location: "Sessions",
@@ -127,7 +142,7 @@ const fullScheduleData = [
         url1: "https://www.linkedin.com/in/rupalmehtatx/"
     },
     {
-        id: 9,
+        id: 10,
         time: "August 8: 4:30 - 5:30 PM PST",
         title: "Panel on Diversity and Inclusion in Tech",
         location: "Stage",
@@ -157,7 +172,7 @@ const fullScheduleData = [
 
     },
     {
-        id: 10,
+        id: 11,
         time: "August 8: 5:30 - 6:00 PM PST",
         title: "Navigating Non-Software Engineering Roles in Tech",
         location: "Sessions",
@@ -170,7 +185,7 @@ const fullScheduleData = [
         url1: "https://www.linkedin.com/in/nagelanukuna/"
     },
     {
-        id: 11,
+        id: 12,
         time: "August 9: 10:00 - 10:30 AM PST",
         title: "Prototyping Wearable Computers",
         location: "Sessions",
@@ -183,7 +198,7 @@ const fullScheduleData = [
         url1: "https://www.linkedin.com/in/charuthomas/"
     },
     {
-        id: 12,
+        id: 13,
         time: "August 9: 10:30 - 11:30 AM PST",
         title: "Going Beyond the Data: Storytelling for the Professional World",
         location: "Sessions",
@@ -196,7 +211,7 @@ const fullScheduleData = [
         url1: "https://www.linkedin.com/in/alexberrycmd/"
     },
     {
-        id: 13,
+        id: 14,
         time: "August 9: 11:30 AM - 12:15 PM PST",
         title: "Foundations of Brand and Marketing Strategy for Technologists",
         location: "Sessions",
@@ -209,20 +224,20 @@ const fullScheduleData = [
         url1: "https://www.linkedin.com/in/chloebelangia/"
     },
     {
-        id: 14,
+        id: 15,
         time: "August 9: 12:15 - 1:00 PM PST",
         title: "Product Management Workshop",
         location: "Sessions",
-        speaker: "Gefen Skolnick - Founder of Couplet Coffee",
-        img: logo,
-        bio: "",
-        prereq: "",
-        description: "",
+        speaker: "Gefen Skolnick - Founder of Couplet Coffee and former PM at Tesla, Hulu, and Mend",
+        img: Gefen,
+        bio: "I'm currently studying linguistics and computer science at UCLA, lead venture partner at Contrary Capital, formerly worked in product management at Tesla, Hulu, Mend, and Outfox AI. My pronouns are she/her, and I'm also a poet, artist, and community organizer. Please ping me if you'd like to chat, I'm always open for a call or coffee in LA! I founded a community space for underrepresented founders to connect with one another, and welcomes future founders, allies & venture capitalists who want to help out and invest in underrepresented folks. Join us on Bunch of Founders!",
+        prereq: "None!",
+        description: "This workshop will go through defining product management at different companies and what the role entails, a quick run-through of what PM interviews look like, and tactics to land your next product role from a personal, and career development perspective.",
         socials1: linkedIn,
         url1: "https://linkedin.com/in/gefenskolnick"
     },
     {
-        id: 15,
+        id: 16,
         time: "August 9: 1:00 - 2:00 PM PST",
         title: "Demo and Devpost Office Hours",
         location: "Sessions",
@@ -231,7 +246,7 @@ const fullScheduleData = [
         description: "If you need help with creating your demo video or submitting your project to Devpost, feel free to hop into these office hours!",
     },
     {
-        id: 16,
+        id: 17,
         time: "August 9: 2:30 - 3:30 PM PST",
         title: "Recruiting 101 and the Impact of Covid 19",
         location: "Sessions",
@@ -244,7 +259,7 @@ const fullScheduleData = [
         url1: "https://www.linkedin.com/in/kimberly-nguyen-024bb218"
     },
     {
-        id: 17,
+        id: 18,
         time: "August 9: 3:30 - 4:30 PM PST",
         title: "How to Land a UX Design Internship Spending $0 on Learning Material",
         location: "Sessions",

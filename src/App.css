@@ -567,6 +567,10 @@ a-href{
   color: #F16F6F;
 }
 
+/* <Link to="/FullSchedule" className='text-link2'>
+      <p>(Click Here for Full Schedule)</p>
+      </Link> */
+
 .text-link3:hover {
   color: #f2e2a4;
 }

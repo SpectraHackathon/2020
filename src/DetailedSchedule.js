@@ -41,12 +41,12 @@ export default function DetailedSchedule(props) {
   }
 
   var dayTwo;
-  if(props.item.id == 11){
+  if(props.item.id == 12){
     dayTwo = <h1 className="date" style={{marginTop: "70px"}}>Day Two: August 9, 2020 (PST Times)</h1>
   }
 
   var panel;
-  if(props.item.id == 9){
+  if(props.item.id == 10){
     panel = <div>
     <h2>{props.item.speaker2}</h2>
     <img class="circle-speaker" src={props.item.img2} width = "180" height = "180" style={{float:"right"}}/>
