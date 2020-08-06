@@ -10,7 +10,7 @@ import imagi from "./sponsorLogos/imagilabs.png";
 import taskade from "./sponsorLogos/taskade.png";
 import typeform from "./sponsorLogos/typeform.png";
 import google from "./sponsorLogos/google.png";
-
+import stickergiant from "./sponsorLogos/stickergiant.png";
 
 const sponsorsData = [
     {
@@ -33,54 +33,60 @@ const sponsorsData = [
     },
     {
         id: 4,
+        img: benefit,
+        name: "Benefit",
+        size: "small",
+    },
+    {
+        id: 5,
         img: rstudio,
         name: "RStudio",
         size: "small",
     },
     {
-        id: 5,
+        id: 6,
         img: echoAR,
         name: "EchoAR",
         size: "xsmall",
     },
     {
-        id: 6,
+        id: 7,
+        img: stickergiant,
+        name: "StickerGiant",
+        size: "xsmall",
+    },
+    {
+        id: 8,
         img: bugsee,
         name: "Bugsee",
         size: "xsmall",
     },
     {
-        id: 7,
+        id: 9,
         img: fund,
         name: "1517Fund",
         size: "xsmall",
     },
     {
-        id: 8,
-        img: benefit,
-        name: "Benefit",
-        size: "xsmall",
-    },
-    {
-        id: 9,
+        id: 10,
         img: clerky,
         name: "Clerky",
         size: "xsmall",
     },
     {
-        id: 10,
+        id: 11,
         img: imagi,
         name: "ImagiLabs",
         size: "xsmall",
     },
     {
-        id: 11,
+        id: 12,
         img: taskade,
         name: "Taskade",
         size: "xsmall",
     },
     {
-        id: 12,
+        id: 13,
         img: google,
         name: "Google",
         size: "xsmall",
